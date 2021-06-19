@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" href="../css/postbar/style.css" />
+	<link rel="stylesheet" href="../css/postbar/bootstrap.min.css" />
+	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="../css/searchstyle.css">
+	<link rel="stylesheet" href="../css/nav.css" />
+	<link rel="stylesheet" href="../css/轮播/swiper.css" />
+	<link rel="stylesheet" href="../css/轮播/style.css" />
+	<link rel="stylesheet" href="../css/text/style.css" />
+	<link rel="stylesheet" href="../css/login/style.css" />
+
+</head>
+<body>
+	<!--头部-->
+	<div id="nav-1" style="width: 100%;z-index: 99;">
+		<ul class="nav">
+			<li class="slide1" style="left: 15px; width: 100px;"></li>
+			<li class="slide2"></li>
+			<li><a class="active" href="#/">首页</a></li>
+			<li><a href="https://www.baidu.com" target="_top">发现</a></li>
+			<li><a href="#" onclick="open_win()" target="_top">登录</a></li>
+			<li><a href="../register.aspx">注册</a></li>
+			<li><a href="../personCtrl.aspx">个人中心</a></li>
+			<li>
+				<div class="search d1">
+					<form>
+						<input type="text" placeholder="搜索从这里开始...">
+						<button type="submit">
+							<img src="../img/search.png" width="15px" height="15px" />
+						</button>
+					</form>
+				</div>
+			</li>
+			<!--<li>
+				<div style="width: 40px;height: 40px;border-radius: 50%;margin-left: 650px;">
+					<img src="../img/default_face.jpg" width="100%" height="100%" style="border-radius: 50%;" />
+				</div>
+			</li>-->
+		</ul>
+	</div>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/script.js"></script>
+	<script>
+		function open_win() {
+			window.open(
+                '../login.aspx', '登录', 'height=400px, width=500px, target=_blank top=250px, left=600px,toolbar=no, menubar=no, scrollbars=no,resizable=no, location=no, status=no')   //该句写成一行代码
+		}
+	</script>
+
+	<!--左边导航-->
+	<div style="position: fixed;width:130px;margin-left:15%;top: 100px;">
+		<nav>
+			<ul>
+				<li style="background-color:yellowgreen;"><a href="index.aspx"><span>热门</span></a></li>
+				<li><a href="#"><span>榜单</span></a></li>
+				<li><a href="#"><span>军事</span></a></li>
+				<li><a href="#"><span>社会</span></a></li>
+				<li><a href="#"><span>搞笑</span></a></li>
+				<li><a href="index.aspx"><span>情感</span></a></li>
+				<li><a href="#"><span>时尚</span></a></li>
+				<li><a href="#"><span>美女</span></a></li>
+				<li><a href="#"><span>游戏</span></a></li>
+				<li><a href="#"><span>科技</span></a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--中间-->
+	<div style="position:absolute;margin-left:25%;margin-top:0px;width: 700px;height:999999999999px;background-color:whitesmoke;">
+		<div class="wrapper" style="margin-top:0px; margin-left: 20px;">
+			<div class="swiper-container swiper-container">
+				<div class="swiper-wrapper" style="height: 350px;">
+					<div class="swiper-slide"><img src="../img/轮播/carrot.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="../img/轮播/eggplant.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="../img/轮播/broccoli.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="../img/轮播/1.jpg" alt=""></div>
+				</div>
+				<!-- 追記 -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<script src="../js/轮播/swiper.js"></script>
+		<script src="../js/轮播/script.js"></script>
+		<div style="width: 610px;margin-top: 20px;margin-left: 100px; font: " 微软雅黑";;">
+		<iframe src="../queryPost.aspx"  name="main" id="mainFrame" title="mainFrame" style="width:500px;height:2000px;" frameborder="0" scrolling="no" />
+		</div>
+
+	</div>
+	<!--右边登录-->
+	<!--<div style="position:fixed;right:2%;top:100px;width: 500px;height:100%;" >
+		<iframe src="../loginANDregister/login.aspx" name="right" id="mainFrame" title="mainFrame" style="width:500px;height:700px;" frameborder="0" scrolling="no" />-->
+		<!--<iframe src="../loginANDregister/login.aspx" style="width:500px;height:700px;" frameborder="0" scrolling="no" />-->
+	<!--</div>-->
+
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿/*.row {
+    margin:0 auto;
+}*/
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.message {
+    background: #fff;
+    height: 103%;
+    border: 1px solid #eee;
+    padding: 30px;
+    border-radius:20px;
+}
+.col-sm-12 {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-right: 50px;
+}
+
+/*.col-xs-12, .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+.col-sm-2 {
+    width: 14%;
+}
+img {
+    border: 0;
+}
+.col-sm-10 {
+    width: 83.33333333%;
+}
+.col-xs-10, .col-sm-10 {
+    margin-top: -70px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 90px;
+    padding-right: 15px;
+
+    margin-bottom: 30px;
+}
+small, .small {
+    font-size: 85%;
+}
+.msg_content {
+    margin-top: 10px;
+}
+.mypic {
+    display:block;
+    margin-top: 5px;
+    width: 95%;
+    height: 200px;
+}
+
+.icon-box>* {
+    float: right;
+    margin-top: -10px;
+    color:#999;
+    font-size:14px;
+}
+
+.icon-box a{
+    text-decoration:none;
+    margin-left:20px;
+}
+.icon-box span:hover{
+    color:blue;
+}

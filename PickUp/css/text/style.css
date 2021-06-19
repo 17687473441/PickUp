@@ -1,0 +1,70 @@
+body{
+	font-family:"微软雅黑";
+}
+.bigimg{
+    width: 100px;     // 你要的正方形
+    /*height: 160px;    // 你要的正方形*/
+    /*box-sizing: content-box;*/
+	display:block;
+	float:left;
+	/*line-height:0px*/
+	/*position:relative;*/
+	z-index:auto;
+}
+.bigimg img{
+	width: 158px;     // 你要的正方形
+    height: 158px;
+	width:auto; height:100px;
+}
+h3{
+	margin-top: 30px;;
+	font-style: normal;
+	width: 489px;;
+	height: 24px;
+	box-sizing:content-box;
+	display:-webkit-box;
+	float:none;
+	line-height:24px;
+	position:static;
+	z-index:auto;
+}
+.text{
+
+	/*background: greenyellow;*/
+	width: 600px;;
+	margin-top: 30px;
+	margin-left:30px ;
+	font-style: normal;
+	font: "微软雅黑";
+	font-size: 12px;
+	border-bottom: 1px solid #8AA4AF;
+	box-sizing:content-box;
+	display:block;
+	float:none;
+	line-height:0px;
+	position:static;
+	z-index:auto;
+}
+.list_des{
+	/*background: red;*/
+	text-align: center center/100%;
+	width: 500px;
+	height: 100px;
+	box-sizing:content-box;
+	display:table-cell;
+	float:none;
+	line-height:0px;
+	position:static:
+	z-index:auto;
+	padding: 5px 0px;
+}
+
+.subinfo_rgt{
+	font-style;
+	font: "微软雅黑";
+	margin-right: 0;
+	float: right;
+	padding: 0 8px;
+	height: 20px;
+	line-height: 20px;
+}
